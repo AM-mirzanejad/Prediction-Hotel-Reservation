@@ -1,38 +1,51 @@
 # Prediction-Hotel-Reservation
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Made%20with-Python-0078D4?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white">
-  <img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white">
-  <img src="https://img.shields.io/badge/Scikit_Learn-0078D4?style=for-the-badge&logo=scikit-learn&logoColor=white">
-  <br>
-  <img src="https://img.shields.io/badge/Jupyter_Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white">
-  <img src="https://img.shields.io/badge/SVC-F37626?style=for-the-badge&logo=scikit-learn&logoColor=white">
-  <img src="https://img.shields.io/badge/GradientBoostingClassifier-2C2D72?style=for-the-badge&logo=scikit-learn&logoColor=white">
-  <img src="https://img.shields.io/badge/RandomForestClassifier-0078D4?style=for-the-badge&logo=scikit-learn&logoColor=white">
-</p>
+<div align="center">
+
+[![Made with Python](https://img.shields.io/badge/Made%20with-Python-0078D4?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-0078D4?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+<br>
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Support Vector Classifier (SVC)](https://img.shields.io/badge/SVC-F37626?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
+[![Gradient Boosting Classifier](https://img.shields.io/badge/GradientBoostingClassifier-2C2D72?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html)
+[![Random Forest Classifier](https://img.shields.io/badge/RandomForestClassifier-0078D4?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+
+</div>
+
+---
+
+This project utilizes machine learning algorithms implemented in Python for predicting hotel reservation cancellations. The goal is to determine whether a hotel booking is likely to be canceled based on various features associated with the reservation.
+
 
 ---
 
 ## Project Overview
 
-This project utilizes machine learning algorithms implemented in Python for predicting hotel reservation cancellations. The goal is to determine whether a hotel booking is likely to be canceled based on various features associated with the reservation.
+This project aims to develop a machine learning model for predicting hotel reservation cancellations. By analyzing various features associated with each booking, such as number of guests, room type, lead time, and historical booking patterns, the model predicts whether a reservation is likely to be canceled.
 
 ### Key Technologies Used:
 
-- **Python**: Programming language used for implementation.
-- **Numpy**: Library for numerical computations in Python.
+- **Python**: Primary programming language for implementation.
+- **Numpy**: Library for efficient numerical computations in Python.
 - **Pandas**: Library for data manipulation and analysis.
 - **Scikit-Learn**: Toolkit for building and deploying machine learning models.
-- **Jupyter Notebook**: Interactive environment used for development and analysis.
+- **Jupyter Notebook**: Interactive environment used for data exploration, model development, and analysis.
 
 ### Machine Learning Models:
 
-The following machine learning classifiers are employed in this project:
+The project employs several machine learning classifiers to predict hotel reservation cancellations:
 
-- **Support Vector Classifier (SVC)**: A supervised learning model used for classification tasks.
+- **Support Vector Classifier (SVC)**: A supervised learning model for classification tasks.
 - **Gradient Boosting Classifier**: An ensemble learning method that builds models sequentially to correct errors of previous models.
-- **Random Forest Classifier**: Another ensemble learning method based on decision trees.
+- **Random Forest Classifier**: Another ensemble learning method based on decision trees, effective for classification tasks.
+
+Through this project, we aim to optimize hotel management strategies by identifying potential cancellations in advance, enabling proactive measures to minimize revenue loss.
+
+---
+
+For detailed implementation and analysis, refer to the Jupyter Notebook files in this repository.
 
 ---
 ## Model Performance
