@@ -115,7 +115,7 @@ For a detailed demonstration and usage of the Heart Failure Predictor, refer to 
 |----------------------------------------|-------------------------------------------------------------------------|
 | Booking_ID                             | Unique identifier of each booking                                        |
 | no_of_adults                           | Number of adults                                                        |
-| no_of_children                         | Number of children  https://github.com/AM-mirzanejad/Prediction-Hotel-Reservation.git                                                    |
+| no_of_children                         | Number of children                                                     |
 | no_of_weekend_nights                   | Number of weekend nights (Saturday or Sunday) stayed or booked at hotel |
 | no_of_week_nights                      | Number of week nights (Monday to Friday) stayed or booked at hotel      |
 | type_of_meal_plan                      | Type of meal plan booked by the customer                                 |
